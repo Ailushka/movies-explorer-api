@@ -10,4 +10,4 @@ http://84.201.165.241/
 
 **Ссылка на бэкенд**
 
-* [Ссылка на бэкенд](http://api.ailushka.diploma.nomoredomains.icu/)
+* [Ссылка на бэкенд](http://api.ailushka.diploma.nomoredomains.club/)
