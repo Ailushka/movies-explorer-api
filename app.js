@@ -13,7 +13,10 @@ const { PORT, MONGO_URL } = require('./utils/config');
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: ['https://ailushka.movies-explorer.nomoredomains.club', 'http://ailushka.movies-explorer.nomoredomains.club', 'http://localhost:3000'],
+  credentials: true,
+}));
 app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(helmet());
